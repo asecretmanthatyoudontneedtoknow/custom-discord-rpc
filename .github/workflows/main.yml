@@ -25,7 +25,7 @@ jobs:
     - name: Build with Flet Pack
 
       run: |
-        flet pack main.py --name "DiscordRPCM3" --product-name "Custom RPC" --product-version "1.0.0" --copyright "lzrkk"
+        flet pack main.py --name "lzrkRPC" --product-name "Custom RPC" --product-version "1.0.0" --copyright "lzrkk"
 
     - name: Upload Release Asset
       uses: softprops/action-gh-release@v1
